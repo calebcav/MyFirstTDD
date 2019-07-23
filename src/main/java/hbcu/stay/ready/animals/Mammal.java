@@ -3,7 +3,7 @@ package hbcu.stay.ready.animals;
 import hbcu.stay.ready.Food;
 
 import java.util.ArrayList;
-import java.util.Date;
+import java.util.*;
 
 public abstract class Mammal implements Animal {
     private final Integer id;
@@ -31,6 +31,7 @@ public abstract class Mammal implements Animal {
     }
 
     public void setBirthDate(Date birthDate) {
+
         this.birthDate = birthDate;
     }
 
@@ -47,4 +48,6 @@ public abstract class Mammal implements Animal {
     public Integer getId() {
         return id;
     }
+
+
 }
